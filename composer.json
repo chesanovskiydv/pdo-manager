@@ -16,5 +16,5 @@
             "DB":"rezord\\DB.php",
             "DBQuery":"rezord\\DBQuery.php"
         }
-    }
+    } 
 }
