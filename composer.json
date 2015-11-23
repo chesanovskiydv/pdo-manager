@@ -1,0 +1,19 @@
+{
+    "name": "rezord/pdo-manager",
+    "description": "PDO Composer project",
+    "authors": [
+        {
+            "name": "Chesanovskiy Denis",
+            "email": "chesanovskiy_dv@group.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "src/"
+        }
+    }
+}
