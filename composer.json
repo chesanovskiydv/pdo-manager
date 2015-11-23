@@ -10,11 +10,9 @@
     "require": {
         "php": ">=5.4.0"
     },
-	"minimum-stability": "dev",
     "autoload": {
         "psr-0": {
-            "DB":"rezord\\DB.php",
-            "DBQuery":"rezord\\DBQuery.php"
+            "rezord\\pdo":"vendor\\rezord\\",
         }
     } 
 }
