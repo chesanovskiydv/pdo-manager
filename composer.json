@@ -1,7 +1,6 @@
 {
     "name": "rezord/pdo-manager",
     "description": "PDO Composer project",
-	"version": "1.0.0",
 	"minimum-stability": "dev",
     "authors": [
         {
