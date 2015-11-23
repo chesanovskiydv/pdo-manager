@@ -13,7 +13,8 @@
     },
     "autoload": {
         "psr-0": {
-            "src/"
+            "DB":"rezord\\DB.php"
+            "DBQuery":"rezord\\DBQuery.php"
         }
     }
 }
