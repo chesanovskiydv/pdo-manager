@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '\DBQueryInterface.php';
+namespace rezord\pdomanager;
 
 class DBQuery implements DBQueryInterface
 {

@@ -1,9 +1,6 @@
 <?php
-
-require __DIR__  . '\DB.php';
-
-require __DIR__ . '\DBQuery.php';
-
+use rezord\pdomanager\DB;
+use rezord\pdomanager\DBQuery;
 
 $db = DB::connect('mysql:dbname=z_short_link;host=localhost','root','');
 

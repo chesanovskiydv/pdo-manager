@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '\DBConnectionInterface.php';
+namespace rezord\pdomanager;
 
 class DB implements DBConnectionInterface
 {
