@@ -1,5 +1,5 @@
 <?php
-namespace rezord\pdomanager;
+namespace rezord\pdo;
 
 interface DBQueryInterface
 {
