@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-0": {
-            "rezord\\pdo":"vendor\\rezord\\",
+            "rezord\\pdo":"vendor\\rezord\\"
         }
     } 
 }
