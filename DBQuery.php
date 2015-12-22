@@ -1,6 +1,8 @@
 <?php
 namespace rezord\pdo;
 
+use PDO;
+
 class DBQuery implements DBQueryInterface
 {
     /** @var  DB */
