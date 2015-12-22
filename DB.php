@@ -1,6 +1,8 @@
 <?php
 namespace rezord\pdo;
 
+use PDO; 
+
 class DB implements DBConnectionInterface
 {
     /** @var DB[] */
@@ -87,7 +89,7 @@ class DB implements DBConnectionInterface
             $db->createConnection($dsn, $username, $password);
         }
 
-        return self::$_instance;
+        return self::$_instance[$dsn];
     }
 
     /**
